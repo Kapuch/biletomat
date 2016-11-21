@@ -11,10 +11,11 @@ namespace cw7
     {
         static void Main(string[] args)
         {
-            BiletA bilet1 = new BiletA();
-            BiletK bilet2 = new BiletK(100);
-            BiletK bilet3 = new BiletK(10);
-            BiletK bilet4 = new BiletK(200);
+
+            Bilet bilet1 = new BiletA();
+            Bilet bilet2 = new BiletK(100);
+            Bilet bilet3 = new BiletK(10);
+            Bilet bilet4 = new BiletK(200);
             bilet1.ObliczCene(RodzajBiletu.N);
             bilet1.ObliczCene(RodzajBiletu.U);
             Console.WriteLine("-------------");

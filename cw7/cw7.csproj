@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aplikacja.cs" />
     <Compile Include="Bilet.cs" />
     <Compile Include="BiletA.cs" />
     <Compile Include="BiletK.cs" />
